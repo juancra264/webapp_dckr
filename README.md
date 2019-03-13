@@ -1,4 +1,4 @@
-Containerize This: Apache-PHP and mariaDB
+Apache-PHP and mariaDB using Docker Containers
 ===================================
 
 ### Intro
