@@ -25,7 +25,7 @@
   <th>Username</th> 
  </tr>
   <?php
-  $conn = mysqli_connect("172.17.0.2", "root", "prueba.2019", "testDB");
+  $conn = mysqli_connect("mysql", "root", "prueba.2019", "testDB");
   // Check connection
   if ($conn->connect_error) {
    die("Connection failed: " . $conn->connect_error);
