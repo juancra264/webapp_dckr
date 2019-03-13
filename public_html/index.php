@@ -19,6 +19,8 @@
  </style>
 </head>
 <body>
+ <h1> Esto es una prueba juan</h1>
+ <br>
  <table>
  <tr>
   <th>Id</th> 

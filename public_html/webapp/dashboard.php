@@ -90,7 +90,7 @@
                     <!--<li><a href="#"><i class="fa fa-user fa-fw"></i> Settings</a>
                     </li> -->
                     <li class="divider"></li>
-                    <li><a href="login.html"><i class="fa fa-sign-out fa-fw"></i> Logout</a>
+                    <li><a href="login.php"><i class="fa fa-sign-out fa-fw"></i> Logout</a>
                     </li>
                 </ul>
             </li>
@@ -112,10 +112,10 @@
                         </div>
                     </li> -->
                     <li>
-                        <a href="dashboard.html" class="active"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
+                        <a href="dashboard.php" class="active"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
                     </li>
                     <li>
-                        <a href="tables.html" class="active"><i class="fa fa-table fa-fw"></i> Tables</a>
+                        <a href="tables.php" class="active"><i class="fa fa-table fa-fw"></i> Tables</a>
                     </li>
                     <!--<li>
                         <a href="#"><i class="fa fa-sitemap fa-fw"></i> Multi-Level Dropdown<span class="fa arrow"></span></a>
@@ -151,65 +151,42 @@
 
             <!-- ... Your content goes here ... -->
             <div class="row">
+                <div class="col-lg-6">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            Comands
+                        </div>
+                        <div class="panel-body">
+                            <p>
+                                <button type="button" class="btn btn-primary">Primary</button>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
                         <div class="col-lg-12">
                             <div class="panel panel-default">
                                 <div class="panel-heading">
-                                    DataTables Advanced Tables
+                                    Basic Form Elements
                                 </div>
-                                <!-- /.panel-heading -->
                                 <div class="panel-body">
-                                    <div class="table-responsive">
-                                        <table class="table table-striped table-bordered table-hover" id="dataTables-example">
-                                            <thead>
-                                                <tr>
-                                                    <th>Rendering engine</th>
-                                                    <th>Browser</th>
-                                                    <th>Platform(s)</th>
-                                                    <th>Engine version</th>
-                                                    <th>CSS grade</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                <tr >
-                                                    <td>Trident</td>
-                                                    <td>Internet Explorer 4.0</td>
-                                                    <td>Win 95+</td>
-                                                    <td class="center">4</td>
-                                                    <td class="center">X</td>
-                                                </tr>
-                                                <tr >
-                                                    <td>Trident</td>
-                                                    <td>Internet Explorer 5.0</td>
-                                                    <td>Win 95+</td>
-                                                    <td class="center">5</td>
-                                                    <td class="center">C</td>
-                                                </tr>
-                                                <tr >
-                                                    <td>Trident</td>
-                                                    <td>Internet Explorer 5.5</td>
-                                                    <td>Win 95+</td>
-                                                    <td class="center">5.5</td>
-                                                    <td class="center">A</td>
-                                                </tr>
-                                                <tr >
-                                                    <td>Trident</td>
-                                                    <td>Internet Explorer 6</td>
-                                                    <td>Win 98+</td>
-                                                    <td class="center">6</td>
-                                                    <td class="center">A</td>
-                                                </tr>
-                                                
-                                            </tbody>
-                                        </table>
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <form role="form">
+                                                <div class="form-group">
+                                                    <!-- <label>Text Input with Placeholder</label> -->
+                                                    <input class="form-control" placeholder="Enter text">
+                                                </div>
+                                                <button type="submit" class="btn btn-primary">Submit Button</button>
+                                            </form>
+                                        </div>
                                     </div>
-                                    <!-- /.table-responsive -->
                                 </div>
-                                <!-- /.panel-body -->
-                            </div>
-                            <!-- /.panel -->
+                            </div>        
                         </div>
-                        <!-- /.col-lg-12 -->
-                    </div>
+            </div>
         </div>
     </div>
 
@@ -226,19 +203,6 @@
 
 <!-- Custom Theme JavaScript -->
 <script src="js/startmin.js"></script>
-
-<!-- DataTables JavaScript -->
-<script src="js/dataTables/jquery.dataTables.min.js"></script>
-<script src="js/dataTables/dataTables.bootstrap.min.js"></script>
-
-<!-- Page-Level Demo Scripts - Tables - Use for reference -->
-<script>
-    $(document).ready(function() {
-        $('#dataTables-example').DataTable({
-                responsive: true
-        });
-    });
-</script>
 
 </body>
 </html>
