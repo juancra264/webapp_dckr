@@ -29,11 +29,17 @@ you can simply run "docker-compose up"
 
 ### Docker Compose 
 Running the compose:
-    docker-compose up       (for debug)
-    docker-compose up -d    (Dettached from console)
+```    
+ docker-compose up       (for debug)
+ docker-compose up -d    (Dettached from console)
+```
 
 Checking the status:  (see what is currently running)
-    docker-compose ps
+```
+ docker-compose ps
+```
 
 Stopping compose:
-    docker-compose stop
+```
+ docker-compose stop
+```
