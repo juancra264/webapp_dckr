@@ -15,9 +15,9 @@ header("location: profile.php"); // Redirecting To Profile Page
   <h2>Login Form</h2>
   <form action="" method="post">
    <label>UserName :</label>
-   <input id="name" name="username" placeholder="username" type="text">
+   <input id="name" name="username" placeholder="username" type="text" required>
    <label>Password :</label>
-   <input id="password" name="password" placeholder="**********" type="password"><br><br>
+   <input id="password" name="password" placeholder="**********" type="password" required><br><br>
    <input name="submit" type="submit" value=" Login ">
    <span><?php echo $error; ?></span>
   </form>
